@@ -1,27 +1,27 @@
 # mozi-iview-area
-[![npm](https://img.shields.io/npm/v/iview-area.svg)]()
+[![npm](https://img.shields.io/npm/v/mozi-iview-area.svg)]()
 
 > 一款基于Vue框架和iView-UI组件库开发的城市级联组件，数据包含中国的省(直辖市)、市、县区和乡镇街，数据来源[area-data](https://github.com/dwqs/area-data)
 
-**[English Document](https://github.com/iview/iview-area/blob/dev/READEME_EN.md)**
-**[线上DEMO](https://iview.github.io/iview-area/)**
+**[English Document](https://github.com/iview/mozi-iview-area/blob/dev/READEME_EN.md)**
+**[线上DEMO](https://iview.github.io/mozi-iview-area/)**
 
-iview-area有两种形式的级联: 
+mozi-iview-area有两种形式的级联: 
 - 下拉菜单(基于iview的Select组件)
 - 级联选择(基于iview的Cascader组件)
 
 # install 安装
 ```
-    npm install iview-area --save
+    npm install mozi-iview-area --save
 ```
 # use 使用
 在main.js中写入下面的代码
 ```javascript
-    import iviewArea from 'iview-area';
+    import iviewArea from 'mozi-iview-area';
     import Vue from 'vue';
     Vue.use(iviewArea);
 ```
-接下来，你就可以在页面中使用iview-area了
+接下来，你就可以在页面中使用mozi-iview-area了
 ```vue
 <template>
     <al-selector v-model="res_s"/>
