@@ -1,6 +1,6 @@
 {
   "name": "mozi-iview-area",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "An area-linkage-component bases on Vue and iView-UI components",
   "author": "Lison",
   "license": "MIT",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/iview/iview-area#readme",
   "dependencies": {
-    "mozi-area-data": "^1.0.0",
+    "mozi-area-data": "1.0.9",
     "iview": "^3.0.0",
     "vue": "^2.5.17"
   },
